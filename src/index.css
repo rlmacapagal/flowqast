@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+        "Droid Sans", "Helvetica Neue", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    position: relative;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.banner {
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    z-index: 0;
+}
+
+.tagline {
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.529);
+    z-index: 1;
+    position: absolute;
+    width: 50.5%;
+    text-align: center;
+    margin-top: 10%;
+    padding: 2%;
+    font-size: 2.1vw;
+    font-style: italic;
+}
+
+.tagline img {
+    width: 50%;
+}
+
+.green {
+    color: #8bc53d;
+    font-weight: 600;
+    font-size: 3vw;
+}
+
+.scheduler {
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.8529);
+    z-index: 1;
+    position: absolute;
+    width: 70%;
+    text-align: center;
+    margin-top: 40%;
+    font-size: 2.1vw;
+    font-style: italic;
+    left: 13%;
+    font-style: normal;
+    border-radius: 5px;
+    padding: 1vw 0;
+}
+
+.scheduler span {
+    font-size: 1.4vw;
+    font-weight: 600;
+}
+.learn {
+    padding-bottom: 0.5vw;
+}
+
+span.demo {
+    font-size: 1.8vw;
+    font-weight: bold;
+    margin-bottom: 0.8vw;
+    display: block;
+}
+
+.grey {
+    margin-left: 30%;
+    color: gray;
+}
+
+input {
+    margin-top: 1vw;
+    font-size: 1vw;
+    height: 1.8vw;
+    width: 11vw;
+    margin-right: 1vw;
+    padding: 0 1%;
+    border-radius: 5px;
+}
+
+.left {
+    margin-left: 26%;
+}
+
+button {
+    font-size: 1.1vw;
+    background-color: #8bc53d;
+    height: 1.8vw;
+    width: 12vw;
+    color: white;
+}
+
+#pointer {
+    top: 0;
+    width: 28%;
+    height: 8.4vw;
+    position: absolute;
+    background: #8bc53d;
+    color: white;
+    font-size: 1.1vw;
+}
+
+#pointer:before {
+    content: "";
+    position: absolute;
+    right: -4.1vw;
+    bottom: 0;
+    width: 0;
+    height: 0;
+    border-left: 4.2vw solid #8bc53d;
+    border-top: 4.2vw solid transparent;
+    border-bottom: 4.2vw solid transparent;
+}
+#pointer p {
+    margin: 1vw;
+}
